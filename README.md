@@ -2,8 +2,8 @@
 ## Problem
 Improve the following codes to implement SOLID principles in OOP.
 
-'''
-public interface Order {
+
+'''public interface Order {
 
   void calculateTotal(double price, int quantity);
   
@@ -12,8 +12,7 @@ public interface Order {
   void generateInvoice(String fileName);
   
   void sendEmailNotification(String email);
-}
-'''
+}'''
 
 public class OrderAction implements Order {
 
