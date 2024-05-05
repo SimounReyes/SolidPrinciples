@@ -14,7 +14,7 @@ Improve the following codes to implement SOLID principles in OOP.
   void sendEmailNotification(String email);
 }'''
 
-public class OrderAction implements Order {
+'''public class OrderAction implements Order {
 
   @Override
   public void calculateTotal(double price, int quantity) {
@@ -39,9 +39,9 @@ public class OrderAction implements Order {
     // Simulate sending email notification
     System.out.println("Email notification sent to: " + email);
   }
-}
+}'''
 
-public class OrderTest {
+'''public class OrderTest {
 
   public static void main(String[] args) {
     Order order = new OrderAction();
@@ -52,6 +52,6 @@ public class OrderTest {
     order.generateInvoice("order_123.pdf");
     order.sendEmailNotification("johndoe@example.com");
   }
-}
+}'''
 ## UML Diagram
 ![Blank diagram (12)](https://github.com/SimounReyes/SolidPrinciples/assets/142649580/6a0e47c4-ce04-40b2-bda5-6577b328886f)
